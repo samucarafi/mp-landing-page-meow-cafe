@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: var(--color2);
+}
+
+:root{
+    --color0: #1A1A1A;
+    --color1: #431B1B;
+    --color2: #F7F2E8;
+}
+header{
+    
+    background-image: url(./images/Image\ header\ mobile.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+header nav{
+width: 100%;
+display: grid;
+grid-template-columns:25% 32% 34% 9%;
+align-items: center;
+
+}
+header nav h1{
+    font-size:16px;
+}
+header nav button{
+    width: 109px;
+    height: 43px;
+    border-radius: 25px;
+    background-color: var(--color1);
+    color: white;
+    font-size: 15px;
+    font-weight: medium;
+}
+header div{
+}
+header div h2{
+    padding-bottom: 10px;
+}
+header div h1{
+    padding-bottom:10px;
+}
+header div p{
+    width: 60%;
+}
