@@ -50,7 +50,20 @@ header div h1{
 header div p{
     width: 60%;
 }
-
+section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+section h1{
+    padding: 20px;
+}
+section span{
+    border-bottom: 1px solid #3C0E0E;
+    width: 40px;
+    margin: auto;
+}
 .box{
     padding: 20px 10px;
     text-align: center;
@@ -62,16 +75,31 @@ header div p{
     margin: 30px auto;
 }
 .box#Capuccino{
-    background-image: linear-gradient(#F6C7C5, #C27D7A);
+    background-image: linear-gradient (  #F6C7C5, #C27D7A);
 }
 .box#CafeAoLeite{
     background-image: linear-gradient(#FAFAFA, #541511a2);
 }
 .box#CafePreto{
-    background-image: linear-gradient(#0A0909, #541511);
+    background-image: linear-gradient(45deg, #541511 , #0A0909);
+}
+.box#secao3{
+    background-image: linear-gradient(#F3C7C4, #541511);
+}
+.box#secao3 h1{
+    margin: auto;
+    font-size: 36px;
+    font-weight: bold;
+}
+.box#secao3 p{
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 60px;
 }
 .box button{
-    margin: auto;
+    margin: 20px auto;
     width: 80%;
     height: 43px;
     border-radius: 25px;
