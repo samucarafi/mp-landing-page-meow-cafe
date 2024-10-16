@@ -52,21 +52,23 @@ header div p{
 }
 
 .box{
-    padding: 10px;
+    padding: 20px 10px;
     text-align: center;
     display: flex;
-    margin: auto;
     border-radius: 50px;
     width: 90%;
     flex-direction: column;
-    justify-content: center;
-    background-image: linear-gradient(#F6C7C5, #C27D7A);
     color: white;
-    
+    margin: 30px auto;
 }
-.box img{
-   width: 323.65px;
-   margin: auto;
+.box#Capuccino{
+    background-image: linear-gradient(#F6C7C5, #C27D7A);
+}
+.box#CafeAoLeite{
+    background-image: linear-gradient(#FAFAFA, #541511a2);
+}
+.box#CafePreto{
+    background-image: linear-gradient(#0A0909, #541511);
 }
 .box button{
     margin: auto;
