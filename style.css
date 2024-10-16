@@ -57,7 +57,7 @@ section {
     justify-content: center;
 }
 section h1{
-    padding: 20px;
+    padding: 15px 0px;
 }
 section span{
     border-bottom: 1px solid #3C0E0E;
@@ -75,7 +75,7 @@ section span{
     margin: 30px auto;
 }
 .box#Capuccino{
-    background-image: linear-gradient (  #F6C7C5, #C27D7A);
+    background-image: linear-gradient(  #F6C7C5, #C27D7A);
 }
 .box#CafeAoLeite{
     background-image: linear-gradient(#FAFAFA, #541511a2);
@@ -109,4 +109,18 @@ section span{
     color: black;
     font-size: 15px;
     font-weight: medium;
+}
+section#sobreNos{
+   text-align: left;
+   color:#4D1D1D;
+}
+section#sobreNos h2{
+    padding: 0px 30px;
+}
+section#sobreNos div{
+    background-image: url(images/Background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px 30px;
 }
