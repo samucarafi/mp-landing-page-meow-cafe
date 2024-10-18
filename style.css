@@ -40,6 +40,8 @@ header nav button{
     font-weight: medium;
 }
 header div{
+    width: 90%;
+    margin: auto;
 }
 header div h2{
     padding-bottom: 10px;
@@ -50,11 +52,13 @@ header div h1{
 header div p{
     width: 60%;
 }
+
 section {
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    
 }
 section h1{
     padding: 15px 0px;
@@ -114,25 +118,56 @@ section#sobreNos{
    text-align: left;
    color:#4D1D1D;
 }
-section#sobreNos h2{
-    padding: 0px 30px;
+#sobreNos> h2,h4,p{
+    margin: auto;
+    width: 90%;
 }
 section#sobreNos div{
     background-image: url(images/Background.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 0px 30px;
+}
+#sobreNos div h1{
+    margin: auto;
+    width: 90%;
 }
 #contato div{
     padding: 20px 10px;
     text-align: left;
     display: flex;
-    border-radius: 50px;
     width: 90%;
     flex-direction: column;
     color: white;
-    margin: 30px auto;
+    margin: 0px auto;
+}
+#contato div#superior{
+    border-radius: 50px 50px 0px 0px;
     background-image: linear-gradient( 45deg,#F3C7C4,#54151186);
-    
+}
+#contato div#inferior{
+    border-radius: 0px 0px 50px 50px;
+    background-image: linear-gradient( 45deg,#ffffff,#8F423D);
+}
+#inferior div{
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    width: 90%;
+    margin: auto;
+}
+footer h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+footer p,a{
+    color: #3c0e0e8e;
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+}
+footer a{
+    display: block;
+    text-decoration: none;
 }
