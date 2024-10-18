@@ -1,6 +1,6 @@
 *{
-    padding:0;
-    margin: 0;
+    padding:0px;
+    margin: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -123,4 +123,16 @@ section#sobreNos div{
     background-repeat: no-repeat;
     background-size: contain;
     padding: 0px 30px;
+}
+#contato div{
+    padding: 20px 10px;
+    text-align: left;
+    display: flex;
+    border-radius: 50px;
+    width: 90%;
+    flex-direction: column;
+    color: white;
+    margin: 30px auto;
+    background-image: linear-gradient( 45deg,#F3C7C4,#54151186);
+    
 }
